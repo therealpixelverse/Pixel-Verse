@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 266px;
+  background: #ff34c6;
+  min-height: 34px;
+  min-width: 0;
+  border-radius: 5px;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: #ffffff;
+  font-family: Minecraft;
+  text-align: center;
+  padding-top: 5px;
+  min-width: 0;
+}

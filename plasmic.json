@@ -1,0 +1,85 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "h1S53gDFAwan5k4kyk1C1D",
+      "projectApiToken": "SMHFa8BwdEnku9R196O0vVCD6YdvFoleqdxCqkx0Y4y3rUz6rdcGiMS7vydAcuSmTucXwtDWFIRo9X5A",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "7K9A4cMd4q",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "h1S53gDFAwan5k4kyk1C1D",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "YPyPVZa-z6",
+          "name": "Button1",
+          "type": "managed",
+          "projectId": "h1S53gDFAwan5k4kyk1C1D",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicButton1.jsx",
+          "importSpec": {
+            "modulePath": "Button1.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicButton1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "CKFmOzgvw",
+          "name": "background 1",
+          "filePath": "plasmic/blank_project/images/background1.png"
+        },
+        {
+          "id": "WIGUZEy27",
+          "name": "hero-social.png",
+          "filePath": "plasmic/blank_project/images/heroSocialpng.png"
+        },
+        {
+          "id": "OLE56TPXo",
+          "name": "gif-pixel-gang.gif",
+          "filePath": "plasmic/blank_project/images/gifPixelGanggif.gif"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "cliVersion": "0.1.166",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
+}
